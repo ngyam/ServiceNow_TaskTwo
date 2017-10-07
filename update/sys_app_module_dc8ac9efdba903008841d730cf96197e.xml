@@ -12,33 +12,33 @@
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Vehicles</mobile_title>
+        <mobile_title>Ownerships</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_165546_tasktwo_vehicle</name>
+        <name>x_165546_tasktwo_ownership</name>
         <order/>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_165546_tasktwo.vehicle_user</roles>
+        <roles>x_165546_tasktwo.ownership_user</roles>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-10-07 16:47:14</sys_created_on>
+        <sys_created_on>2017-10-07 18:12:17</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>6607b0e7dba903008841d730cf9619a3</sys_id>
+        <sys_id>dc8ac9efdba903008841d730cf96197e</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Vehicles</sys_name>
+        <sys_name>Ownerships</sys_name>
         <sys_overrides/>
         <sys_package display_value="TaskTwo" source="x_165546_tasktwo">b85fa4e3dba903008841d730cf961944</sys_package>
         <sys_policy/>
         <sys_scope display_value="TaskTwo">b85fa4e3dba903008841d730cf961944</sys_scope>
-        <sys_update_name>sys_app_module_6607b0e7dba903008841d730cf9619a3</sys_update_name>
+        <sys_update_name>sys_app_module_dc8ac9efdba903008841d730cf96197e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-10-07 18:50:04</sys_updated_on>
+        <sys_updated_on>2017-10-07 18:49:21</sys_updated_on>
         <timeline_page/>
-        <title>Vehicles</title>
+        <title>Ownerships</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

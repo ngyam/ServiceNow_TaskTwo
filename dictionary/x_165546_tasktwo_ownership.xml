@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Ownership" max_length="40" name="x_165546_tasktwo_ownership" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Owned Since" mandatory="true" max_length="40" name="u_owned_since" type="glide_date"/>
+        <element label="Customer" mandatory="true" max_length="32" name="u_reference_customer" reference="x_165546_tasktwo_customer" type="reference"/>
+        <element label="Vehicle" mandatory="true" max_length="32" name="u_reference_vehicle" reference="x_165546_tasktwo_vehicle" type="reference"/>
+        <index name="index">
+            <element name="u_reference_vehicle"/>
+        </index>
+        <index name="index2">
+            <element name="u_reference_customer"/>
+        </index>
+    </element>
+</database>

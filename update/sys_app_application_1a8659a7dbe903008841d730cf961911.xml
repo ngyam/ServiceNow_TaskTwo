@@ -6,25 +6,25 @@
         <description/>
         <device_type>browser</device_type>
         <hint/>
-        <name>Part</name>
+        <name/>
         <order>100</order>
-        <roles>x_165546_tasktwo.part_user</roles>
+        <roles/>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-10-07 17:45:52</sys_created_on>
+        <sys_created_on>2017-10-07 19:05:12</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>2d74496fdba903008841d730cf96194e</sys_id>
+        <sys_id>1a8659a7dbe903008841d730cf961911</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Part</sys_name>
+        <sys_name>CarDealership Actions</sys_name>
         <sys_overrides/>
         <sys_package display_value="TaskTwo" source="x_165546_tasktwo">b85fa4e3dba903008841d730cf961944</sys_package>
         <sys_policy/>
         <sys_scope display_value="TaskTwo">b85fa4e3dba903008841d730cf961944</sys_scope>
-        <sys_update_name>sys_app_application_2d74496fdba903008841d730cf96194e</sys_update_name>
+        <sys_update_name>sys_app_application_1a8659a7dbe903008841d730cf961911</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-10-07 17:45:52</sys_updated_on>
-        <title>Part</title>
+        <sys_updated_on>2017-10-07 19:05:12</sys_updated_on>
+        <title>CarDealership Actions</title>
         <view_name/>
     </sys_app_application>
 </record_update>
