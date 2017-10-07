@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Customer" max_length="40" name="x_165546_tasktwo_customer" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Address" mandatory="true" max_length="40" name="u_address" type="string"/>
+        <element label="Birthday" mandatory="true" max_length="40" name="u_birthday" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="basic" label="Membership" mandatory="true" max_length="40" name="u_membership" type="string">
+            <choice>
+                <element label="Basic" sequence="0" value="basic"/>
+                <element label="Gold" sequence="1" value="gold"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sex" mandatory="true" max_length="40" name="u_sex" type="string">
+            <choice>
+                <element label="Male" sequence="0" value="male"/>
+                <element label="Female" sequence="1" value="female"/>
+                <element label="Other" sequence="2" value="other"/>
+            </choice>
+        </element>
+    </element>
+</database>

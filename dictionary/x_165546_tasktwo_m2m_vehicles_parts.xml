@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Tasktwo M2m Vehicles Parts" max_length="40" name="x_165546_tasktwo_m2m_vehicles_parts" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Part" max_length="32" name="part" reference="x_165546_tasktwo_part" type="reference"/>
+        <element label="Vehicle" max_length="32" name="vehicle" reference="x_165546_tasktwo_vehicle" type="reference"/>
+        <index name="index">
+            <element name="part"/>
+        </index>
+        <index name="index2">
+            <element name="vehicle"/>
+        </index>
+    </element>
+</database>

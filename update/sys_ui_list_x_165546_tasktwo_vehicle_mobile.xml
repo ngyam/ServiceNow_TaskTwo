@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_165546_tasktwo_vehicle" version="2" view="Mobile">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_165546_tasktwo_vehicle" element="NULL" name="x_165546_tasktwo_vehicle" parent="NULL" relationship="NULL" sys_domain="global" view="3c966341dd2003003399d83d70be0252">4ea509afdba903008841d730cf961938</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-07 17:51:06</sys_created_on>
+            <sys_id>8aa509afdba903008841d730cf961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-07 17:51:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ack_price</element>
+            <list_id display_value="x_165546_tasktwo_vehicle" element="NULL" name="x_165546_tasktwo_vehicle" parent="NULL" relationship="NULL" sys_domain="global" view="3c966341dd2003003399d83d70be0252">4ea509afdba903008841d730cf961938</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-07 17:51:06</sys_created_on>
+            <sys_id>82a509afdba903008841d730cf96193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-07 17:51:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_brand</element>
+            <list_id display_value="x_165546_tasktwo_vehicle" element="NULL" name="x_165546_tasktwo_vehicle" parent="NULL" relationship="NULL" sys_domain="global" view="3c966341dd2003003399d83d70be0252">4ea509afdba903008841d730cf961938</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-07 17:51:06</sys_created_on>
+            <sys_id>06a509afdba903008841d730cf96193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-07 17:51:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_carname</element>
+            <list_id display_value="x_165546_tasktwo_vehicle" element="NULL" name="x_165546_tasktwo_vehicle" parent="NULL" relationship="NULL" sys_domain="global" view="3c966341dd2003003399d83d70be0252">4ea509afdba903008841d730cf961938</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-07 17:51:06</sys_created_on>
+            <sys_id>86a509afdba903008841d730cf96193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-07 17:51:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_fueltype</element>
+            <list_id display_value="x_165546_tasktwo_vehicle" element="NULL" name="x_165546_tasktwo_vehicle" parent="NULL" relationship="NULL" sys_domain="global" view="3c966341dd2003003399d83d70be0252">4ea509afdba903008841d730cf961938</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-07 17:51:06</sys_created_on>
+            <sys_id>0aa509afdba903008841d730cf96193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-07 17:51:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_price</element>
+            <list_id display_value="x_165546_tasktwo_vehicle" element="NULL" name="x_165546_tasktwo_vehicle" parent="NULL" relationship="NULL" sys_domain="global" view="3c966341dd2003003399d83d70be0252">4ea509afdba903008841d730cf961938</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-07 17:51:06</sys_created_on>
+            <sys_id>8aa509afdba903008841d730cf96193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-07 17:51:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_type</element>
+            <list_id display_value="x_165546_tasktwo_vehicle" element="NULL" name="x_165546_tasktwo_vehicle" parent="NULL" relationship="NULL" sys_domain="global" view="3c966341dd2003003399d83d70be0252">4ea509afdba903008841d730cf961938</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-07 17:51:06</sys_created_on>
+            <sys_id>0ea509afdba903008841d730cf96193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-07 17:51:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_used</element>
+            <list_id display_value="x_165546_tasktwo_vehicle" element="NULL" name="x_165546_tasktwo_vehicle" parent="NULL" relationship="NULL" sys_domain="global" view="3c966341dd2003003399d83d70be0252">4ea509afdba903008841d730cf961938</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-07 17:51:06</sys_created_on>
+            <sys_id>8ea509afdba903008841d730cf96193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-07 17:51:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_165546_tasktwo_vehicle</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-07 17:51:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ea509afdba903008841d730cf961938</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_165546_tasktwo_vehicle</sys_name>
+            <sys_package display_value="TaskTwo" source="x_165546_tasktwo">b85fa4e3dba903008841d730cf961944</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TaskTwo">b85fa4e3dba903008841d730cf961944</sys_scope>
+            <sys_update_name>sys_ui_list_x_165546_tasktwo_vehicle_Mobile</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-07 17:51:06</sys_updated_on>
+            <sys_user/>
+            <view display_value="Mobile" name="Mobile">3c966341dd2003003399d83d70be0252</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

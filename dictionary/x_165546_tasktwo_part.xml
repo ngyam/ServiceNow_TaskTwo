@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Part" max_length="40" name="x_165546_tasktwo_part" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="100" name="u_partname" type="string"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Acquisition price" mandatory="true" max_length="20" name="u_part_ack_price" type="price"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Price" max_length="20" name="u_part_price" type="price"/>
+        <element attributes="edge_encryption_enabled=true" label="Serial code" mandatory="true" max_length="100" name="u_serial" type="string"/>
+    </element>
+</database>

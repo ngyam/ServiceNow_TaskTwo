@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Vehicle" max_length="40" name="x_165546_tasktwo_vehicle" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Acquisition price" mandatory="true" max_length="20" name="u_ack_price" type="price"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Brand" mandatory="true" max_length="100" name="u_brand" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="100" name="u_carname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Fuel type" mandatory="true" max_length="40" name="u_fueltype" type="string">
+            <choice>
+                <element label="Gasoline" sequence="0" value="gas"/>
+                <element label="Diesel" sequence="1" value="diesel"/>
+                <element label="Electricity" sequence="2" value="electricity"/>
+                <element label="Hybrid" sequence="3" value="hybrid"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Price" max_length="20" name="u_price" type="price"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" mandatory="true" max_length="40" name="u_type" type="string">
+            <choice>
+                <element label="SUV" sequence="0" value="suv"/>
+                <element label="Sedan" sequence="1" value="sedan"/>
+                <element label="Convertible" sequence="2" value="convertible"/>
+                <element label="Truck" sequence="3" value="truck"/>
+                <element label="Minivan" sequence="4" value="minivan"/>
+                <element label="Hybrid" sequence="5" value="hybrid"/>
+                <element label="Electric" sequence="6" value="electric"/>
+                <element label="Motorbike" sequence="7" value="motorbike"/>
+                <element label="Bus" sequence="8" value="bus"/>
+            </choice>
+        </element>
+        <element label="Used" max_length="40" name="u_used" type="boolean"/>
+    </element>
+</database>

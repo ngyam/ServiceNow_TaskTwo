@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>x_165546_tasktwo_part</from_table>
+        <m2m_from_field>part</m2m_from_field>
+        <m2m_from_label>Vehicles</m2m_from_label>
+        <m2m_table>x_165546_tasktwo_m2m_vehicles_parts</m2m_table>
+        <m2m_to_field>vehicle</m2m_to_field>
+        <m2m_to_label>Parts</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-07 17:46:57</sys_created_on>
+        <sys_id>1e84896fdba903008841d730cf9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_165546_tasktwo_m2m_vehicles_parts</sys_name>
+        <sys_package display_value="TaskTwo" source="x_165546_tasktwo">b85fa4e3dba903008841d730cf961944</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TaskTwo">b85fa4e3dba903008841d730cf961944</sys_scope>
+        <sys_update_name>sys_m2m_1e84896fdba903008841d730cf9619f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-07 17:46:57</sys_updated_on>
+        <to_table>x_165546_tasktwo_vehicle</to_table>
+    </sys_m2m>
+</record_update>
