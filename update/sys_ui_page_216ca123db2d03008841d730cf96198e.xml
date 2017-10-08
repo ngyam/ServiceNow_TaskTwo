@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_165546_tasktwo_New Customer Page.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<div ng-app=""><input type="text" ng-model="myVar" placeholder="Input here"></input>{{myVar}}</div>
+</j:jelly>]]></html>
+        <name>New Customer Page</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-08 08:49:45</sys_created_on>
+        <sys_id>216ca123db2d03008841d730cf96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Customer Page</sys_name>
+        <sys_package display_value="TaskTwo" source="x_165546_tasktwo">b85fa4e3dba903008841d730cf961944</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TaskTwo">b85fa4e3dba903008841d730cf961944</sys_scope>
+        <sys_update_name>sys_ui_page_216ca123db2d03008841d730cf96198e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-08 08:49:45</sys_updated_on>
+    </sys_ui_page>
+</record_update>

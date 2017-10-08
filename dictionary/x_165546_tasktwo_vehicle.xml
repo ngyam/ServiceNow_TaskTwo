@@ -30,5 +30,6 @@
             </choice>
         </element>
         <element label="Used" max_length="40" name="u_used" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="100" label="Brand" mandatory="true" max_length="40" name="u_vehicle_brand" type="string"/>
     </element>
 </database>
