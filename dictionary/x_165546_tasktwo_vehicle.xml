@@ -3,9 +3,6 @@
     <element label="Vehicle" max_length="40" name="x_165546_tasktwo_vehicle" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Acquisition price" mandatory="true" max_length="20" name="u_ack_price" type="price"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Brand" mandatory="true" max_length="100" name="u_brand" type="string">
-            <choice/>
-        </element>
         <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="100" name="u_carname" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Fuel type" mandatory="true" max_length="40" name="u_fueltype" type="string">
             <choice>
@@ -15,6 +12,7 @@
                 <element label="Hybrid" sequence="3" value="hybrid"/>
             </choice>
         </element>
+        <element label="Owned by" max_length="32" name="u_owned_by" reference="x_165546_tasktwo_customer" type="reference"/>
         <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Price" max_length="20" name="u_price" type="price"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Type" mandatory="true" max_length="40" name="u_type" type="string">
             <choice>
@@ -30,6 +28,9 @@
             </choice>
         </element>
         <element label="Used" max_length="40" name="u_used" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" default="100" label="Brand" mandatory="true" max_length="40" name="u_vehicle_brand" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Brand" mandatory="true" max_length="100" name="u_veh_brand" type="string"/>
+        <index name="index">
+            <element name="u_owned_by"/>
+        </index>
     </element>
 </database>

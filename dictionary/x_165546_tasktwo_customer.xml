@@ -11,6 +11,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="40" name="u_name" type="string"/>
+        <element label="Num of vehicles" max_length="40" name="u_num_vehicles" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Sex" mandatory="true" max_length="40" name="u_sex" type="string">
             <choice>
                 <element label="Male" sequence="0" value="male"/>

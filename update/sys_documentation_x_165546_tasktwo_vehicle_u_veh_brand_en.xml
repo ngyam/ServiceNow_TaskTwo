@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_veh_brand" label="Brand" language="en" table="x_165546_tasktwo_vehicle">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_veh_brand</element>
+            <help/>
+            <hint/>
+            <label>Brand</label>
+            <language>en</language>
+            <name>x_165546_tasktwo_vehicle</name>
+            <plural>Brands</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-08 17:37:49</sys_created_on>
+            <sys_id>413c0abfdbe143008841d730cf961937</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Brand</sys_name>
+            <sys_package display_value="TaskTwo" source="x_165546_tasktwo">b85fa4e3dba903008841d730cf961944</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TaskTwo">b85fa4e3dba903008841d730cf961944</sys_scope>
+            <sys_update_name>sys_documentation_x_165546_tasktwo_vehicle_u_veh_brand_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-08 17:37:49</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

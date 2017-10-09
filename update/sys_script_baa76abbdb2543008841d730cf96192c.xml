@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_165546_tasktwo_customer</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>VehicleCounter_CustomerRecords</name>
+        <order>99</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var vehicleTable = new GlideRecord('x_165546_tasktwo_vehicle');
+	
+	gs.info("Customers records beginning:" +current.getRowCount());
+	gs.info("Vehicle records beginning:" +vehicleTable.getRowCount());
+	
+	vehicleTable.addQuery('u_owned_by',current.sys_id);
+	vehicleTable.query();
+	
+	gs.info("Vehicle queried");
+	
+	
+	var numvehicles = vehicleTable.getRowCount();
+	
+	gs.info("numvehicles: "+numvehicles);
+	
+
+	
+	if(current.next()) {
+		gs.info("custrecord is not empty yo");
+		current.setValue('u_num_vehicles',numvehicles);
+		current.update();
+	}
+	
+	gs.info("Customer updated maybe");
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-08 19:42:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>baa76abbdb2543008841d730cf96192c</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>VehicleCounter_CustomerRecords</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TaskTwo" source="x_165546_tasktwo">b85fa4e3dba903008841d730cf961944</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TaskTwo">b85fa4e3dba903008841d730cf961944</sys_scope>
+        <sys_update_name>sys_script_baa76abbdb2543008841d730cf96192c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-08 20:09:35</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=baa76abbdb2543008841d730cf96192c"/>
+</record_update>
